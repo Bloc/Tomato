@@ -1,0 +1,34 @@
+#sidebar {
+  background: hsl(0, 67%, 70%);
+  border-right: 1px solid hsl(0, 55%, 50%);
+  box-shadow: 1px 0px 5px rgba(0,0,0,0.3);
+  color: white;
+  height: calc(100vh - 46px);
+  overflow: scroll;
+  position: fixed;
+  width: 25%;
+  z-index: 2;
+}
+#sidebar button {
+  color: #ccc;
+}
+#sidebar button:hover {
+  color: #fff;
+}
+#logo {
+  background: url('assets/images/tomatoes.png') no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  height: 200px;
+  width: 100%;
+  margin: 0rem 0;
+}
+h1#wordmark {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  color: hsl(0, 100%, 29%);
+}
+
+#sidebar button:hover span {
+  color: #ccc;
+}

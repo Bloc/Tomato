@@ -1,0 +1,55 @@
+#user-display {
+  background: hsl(0, 60%, 63%);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  clear: both;
+  color: white;
+  height: 46px;
+  margin-bottom: 0;
+  overflow: hidden;
+  padding: 0.5rem;
+  position: relative;
+  z-index: 5;
+}
+#avatar {
+  float: left;
+}
+#avatar img {
+  border-radius: 3px;
+  height: 30px;
+  object-fit: cover;
+  width: 30px;
+}
+#user-display-name {
+  float: left;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 30px;
+  margin-left: 0.75rem;
+}
+.sign-in-out {
+  background: hsl(0, 75%, 78%);
+  border-radius: 5px;
+  float: right;
+  height: 30px;
+  padding: 0 0.5rem;
+  
+}
+.sign-in-out:hover {
+  background: hsl(0, 82%, 84%);
+}
+.sign-in-out .material-icons {
+  color: hsl(0,50%,50%);
+  font-size: 1.3rem;
+  line-height: 30px;
+  margin-top: 1px;
+  margin-right: 0.3rem;
+}
+.sign-in-out span {
+  color: hsl(0, 28%, 50%);
+  font-size: 0.9rem;
+  font-weight: bold;
+  line-height: 30px;
+  margin-right: 0.5rem;
+  transform: translateY(-0.5rem);
+  vertical-align: top;
+}
