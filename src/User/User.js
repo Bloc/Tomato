@@ -11,7 +11,6 @@ class User extends Component {
   }
   
   signIn() {
-    console.log('ok')
     this.props.firebase.auth().signInWithPopup( new this.props.firebase.auth.GoogleAuthProvider() );
   }
   
