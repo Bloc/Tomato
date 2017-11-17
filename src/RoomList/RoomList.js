@@ -13,7 +13,8 @@ class RoomList extends Component {
   
   componentDidMount() {
     this.roomsRef.on('child_added', snapshot  => {
-      let room = Object.assign(snapshot.val(), {key: snapshot.key})
+      const room = snapshot.val();
+      room.key = snapshot.key;
       this.setState({ rooms: this.state.rooms.concat( room ) })
       if (this.state.rooms.length === 1) { this.props.setRoom(room) }
     });
